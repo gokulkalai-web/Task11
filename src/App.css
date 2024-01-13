@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background:linear-gradient(to left,#62cff4,#2c67f2 );
+  width:100vw;
+  height:auto;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  width: 270px;
+  height: 460px;
+  border-radius: 15px;
+  margin: 80px 20px;
+  background-color: white;
+}
+.cards p , h1 {
+  text-align: center;
+}
+
+.para {
+  text-align: initial !important;
+  margin-left: 20px;
+}
+
+.btn{
+   border-radius: 15px ;
+   height: 35px;
+   width: 200px;
+   margin-left: 30px;
+   font-size: 12px;
+   font-weight: bold;
+   color: #fff;
+   background-color: #1eb1e1;
+   border: none;
+}
+hr{
+  margin:0 15px;
+  opacity: 0.2;
+}
+i {
+  margin:0 5px;
+  font-weight:bolder !important;
+}
+
+.blur {
+  color: grey;
+  opacity: 0.8;
+}
+
